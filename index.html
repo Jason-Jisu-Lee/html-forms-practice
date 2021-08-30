@@ -10,7 +10,26 @@
     <main>
       <fieldset>
         <legend>Contact information</legend>
+        <div>
+          <label for = "name">Name:</label>
+          <input id = "name" type = "text" name = "name" placeheolder = "John Doe" autofocus = "on" maxlength = "30" required/>
+        </div>
+        <div>
+          <label for = "email">Email:</label>
+          <input id = "email" name = "email address" type = "text" maxlength = "42" required placeholder = "johndoe1993@youremail.com" />
+        </div>
       </fieldset>
+      <div>
+        <label for = "your-message">Your message</label>
+      <textarea id = "your-message" name = "message" required maxlength = "250" placeholder = "Enter your message here">        
+      </textaera>
+      </div>
+      <h3>Do you have a secret message to tell?</h3>
+      <div>
+        <textarea name = "secret-message" maxlength = "150" type = "password"></textarea>
+      </div>
+      <button type = "submit">Submit</button>
+      <button type = "reset">Reset</button>
     </main>
   </body>
 </html>
